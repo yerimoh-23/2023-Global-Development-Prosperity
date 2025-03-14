@@ -1,4 +1,4 @@
-# 2023-Global-Development-Prosperity
+# 2023 Global Development Prosperity
 
 ## Data
 
