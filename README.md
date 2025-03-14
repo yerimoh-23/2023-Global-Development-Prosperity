@@ -30,6 +30,7 @@ This dataset contains rankings and indicators from the 2023 Legatum Prosperity I
 
 • `NaturalEnvironment`: Environmental quality and sustainability.
 
+## Detailed Report: https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/final-project.pdf
 
 ## Analysis
 
