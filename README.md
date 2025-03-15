@@ -1,4 +1,9 @@
-# 2023 Global Development Prosperity
+# Report
+- December 4, 2024
+- Yerim Oh
+
+## Title
+2023 Global Development & Prosperity Analysis by K-Means Clustering
 
 ## Data
 
