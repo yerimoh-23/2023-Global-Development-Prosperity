@@ -5,9 +5,12 @@
 ## Title
 2023 Global Development & Prosperity Analysis by K-Means Clustering
 
-## Data
+## Abstract
+This study employs an unsupervised machine learning model to analyze the level of prosperity across countries based on the 2023 Legatum Prosperity Index data. The dataset includes various economic and social indicators (12 numerical variables) for 167 countries worldwide. The aim of this analysis is to cluster countries according to their prosperity levels and identify the key factors driving disparities in prosperity between nations. In an increasingly globalized world, understanding the factors that contribute to prosperity gaps is crucial. By utilizing the K-means clustering algorithm, this research groups countries with similar characteristics, emphasizing not only economic power but also the influence of various social factors on national prosperity. This approach seeks to provide deeper insights into the multi-dimensional aspects that shape prosperity beyond simple economic measures.
 
-__2023 Global Country Development & Prosperity Index__ https://www.kaggle.com/datasets/tarktunataalt/2023-global-country-development-and-prosperity-index 
+## Datasets
+
+__2023 Global Country Development & Prosperity Index__ https://index.prosperity.com/rankings 
 
 This dataset contains rankings and indicators from the 2023 Legatum Prosperity Index, assessing various dimensions of prosperity and development across countries. There are 167 observations according to 167 countries and 12 numerical variables:
 
@@ -35,7 +38,34 @@ This dataset contains rankings and indicators from the 2023 Legatum Prosperity I
 
 • `NaturalEnvironment`: Environmental quality and sustainability.
 
-## Detailed Report: https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/final-project.pdf
+📍 Excluded the `AverageScore` variable, since it is the overall average score of the country across all indicators.
+
+## Exploratory Data Analysis + Visualization
+
+K-means clustering does not assign a response variable. Therefore, all the variables used in the analysis are considered "explanatory" and are used to determine cluster assignments.
+
+1. ggpair plot of all explanatory variables
+
+![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/ggpairs.png)
+
+2. Histogram for each variable
+
+![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/histogram.png)
+
+3. Density plot for each variable
+
+![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/density%20plot.png)
+
+4. Boxplot for each variable
+
+![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/box%20plot.png)
+
+5. Correlation matrix
+
+![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/correlation%20matrix.png)
+    * We could see that most of the variables, except for PersonalFreedom and NaturalEnvironment, have a strong linear correlation.
+
+
 
 ## Analysis
 
