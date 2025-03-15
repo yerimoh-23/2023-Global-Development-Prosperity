@@ -128,7 +128,6 @@ The visualization of K-Means clustering with 3 clusters using different ellipse 
 
 Overall, the clustering analysis suggests that 3 clusters eﬀectively capture the diﬀerences in global prosperity among countries. These clusters align with the classic literature categorization of countries into underdeveloped, developing, and developed nations. This natural separation within the data confirms that the traditional distinctions are grounded in the actual metrics of prosperity and development. The analysis reinforces the validity of these categories by showing that the diﬀerences in dimensions such as safety and security, governance, and economic quality are significant enough to group countries naturally into these three well-defined clusters.
 
-### K−Means Clustering Results on World Map
 ![alt text](https://github.com/yerimoh-23/2023-Global-Development-Prosperity/blob/main/Graphs/choropleth%20map.png)
 
 The map highlights the clustering results of the K-Means algorithm applied to the Global Prosperity Data:
